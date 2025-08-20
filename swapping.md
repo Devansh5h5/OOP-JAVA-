@@ -1,0 +1,19 @@
+/* Java program for swapping the value of two positive integer
+
+public class Swapping_the_value_of_two_positive_integer {
+    public static void main(String[] args) {
+        int a = 5, b = 10;
+       System.out.println("Before swapping using third variable: a = " + a + ", b = " + b);
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println("After swapping using third variable: a = " + a + ", b = " + b)
+        a = 5;
+        b = 10;
+        System.out.println("Before swapping without third variable: a = " + a + ", b = " + b);
+        a = a + b; 
+        b = a - b; 
+        a = a - b; 
+        System.out.println("After swapping without third variable: a = " + a + ", b = " + b);
+    }
+}
