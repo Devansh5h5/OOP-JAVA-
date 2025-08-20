@@ -1,5 +1,3 @@
-/* Java program for swapping the value of two positive integer
-
 public class Swapping_the_value_of_two_positive_integer {
     public static void main(String[] args) {
         int a = 5, b = 10;
