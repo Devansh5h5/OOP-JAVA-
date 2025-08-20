@@ -1,0 +1,8 @@
+public class PrintAddress {
+    public static void main(String[] args) {
+        System.out.println("Devansh Dhingra");
+        System.out.println("Jwalapur,Hardwar");
+        System.out.println("Uttarakhand");
+        System.out.println("India");
+    }
+}
